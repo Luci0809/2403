@@ -1,4 +1,3 @@
 
 # Environments
-poetry env remove 3.7
-demo2403/
+poetry env remove demo2403/
