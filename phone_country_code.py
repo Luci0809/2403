@@ -24,7 +24,7 @@ header = zeep.xsd.Element(
 	),
 )
 # Set the header value from header element
-header_value = header(Action=method_url, To=service_url)5
+header_value = header(Action=method_url, To=service_url)
 
 # Initialize zeep client
 client = zeep.Client(wsdl=wsdl_url)
