@@ -40,3 +40,4 @@ result = client.service.CountryIntPhoneCode(
 )
 # Print the result
 print(f"Phone Code for {country_code} is {result}")
+
